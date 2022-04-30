@@ -73,9 +73,24 @@ a:hover {
 	background: black;
 	color: white;
 	/* i want to behave type line */
-	display: inline-flex; 
+	display: inline-block; 
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: blue; 
 	transition: .3s ease all; 
+}
+
+.boton:hover{
+	background-color: blue; 
+	text-decoration: none;
+}
+
+/* this is a modifier */
+.boton--absolute{
+	position: absolute;
+	right: 20px; 
+	bottom: -25px;
 }
