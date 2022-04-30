@@ -23,6 +23,9 @@ a:hover {
 	margin: 0 auto;
 }
 
+.container__cards{
+	margin: 70px 0; 
+}
 /* acces firt block */
 .card {
 	background-color: white;
@@ -65,7 +68,7 @@ a:hover {
 	margin-bottom: 20px;
 }
 
-.boton{
+.button{
 	border: none; 
 	min-width: 180px;
 	height: 50px; 
@@ -83,30 +86,39 @@ a:hover {
 	transition: .3s ease all; 
 }
 
-.boton__texto{
+.button__texto{
 	font-weight: 600px;
 }
 
-.boton:hover{
+.button:hover{
 	background-color: blue; 
 	text-decoration: none;
 }
 
 /* this is a modifier */
-.boton--absolute{
+.button--absolute{
 	position: absolute;
 	right: 20px; 
 	bottom: -25px;
 }
 
-.boton--verde{
+.button--green{
 	background-color: #7ba771; 
 }
 
-.boton--verde:hoover{
+.button--green:hover{
 	background-color: #437837; 
 }
 
 .phrase{
 	text-align: center;
+	margin: 70px 0; 
+}
+
+.phrase__text{
+	margin-bottom: 20px; 
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-style: italic;
 }
