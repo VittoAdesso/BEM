@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #F6F6FE;
+	background: #d3d3eb;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -17,9 +17,65 @@ a:hover {
 	text-decoration: underline;
 }
 
-.contenedor {
+.container {
 	max-width: 1000px;
 	width: 90%;
 	margin: 0 auto;
 }
 
+/* acces firt block */
+.card {
+	background-color: white;
+	border-radius: 15px;
+	padding: 20px; 
+	display: flex;
+	align-items: center;
+	position: relative; 
+	margin-bottom: 50px;
+}
+
+.card__thumbnail {
+	width: 650px; 
+	height: 200px ;
+	/* background-color: black; */
+	margin-right: 20px;
+	border-radius: 15px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.card__image {
+	width: 80%;
+}
+
+.card__title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: normal; 
+	margin-bottom: 20px; 
+}
+
+.card__enlace{
+	color: black;
+}
+
+.card__description{
+	line-height: 28px; 
+	color: red; 
+	margin-bottom: 20px;
+}
+
+.boton{
+	border: none; 
+	min-width: 180px;
+	height: 50px; 
+	padding: 0 30px; 
+	background: black;
+	color: white;
+	/* i want to behave type line */
+	display: inline-flex; 
+	justify-content: space-between;
+	align-items: center;
+	background-color: blue; 
+	transition: .3s ease all; 
+}
