@@ -106,3 +106,7 @@ a:hover {
 .boton--verde:hoover{
 	background-color: #437837; 
 }
+
+.phrase{
+	text-align: center;
+}
