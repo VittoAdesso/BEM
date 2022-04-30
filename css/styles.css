@@ -83,6 +83,10 @@ a:hover {
 	transition: .3s ease all; 
 }
 
+.boton__texto{
+	font-weight: 600px;
+}
+
 .boton:hover{
 	background-color: blue; 
 	text-decoration: none;
@@ -93,4 +97,12 @@ a:hover {
 	position: absolute;
 	right: 20px; 
 	bottom: -25px;
+}
+
+.boton--verde{
+	background-color: #7ba771; 
+}
+
+.boton--verde:hoover{
+	background-color: #437837; 
 }
